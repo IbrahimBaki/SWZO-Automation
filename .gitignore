@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# IDE settings (machine-specific)
+.idea/
+
+# Playwright MCP session artifacts (console logs, traces — may contain session data)
+.playwright-mcp/
+
+# Local Claude Code settings (machine-specific, not shared)
+.claude/settings.local.json
+
+# Playwright test output
+test-results/
+playwright-report/
+playwright/.cache/
+
+# Auth/session state — never commit ServiceNow session cookies or tokens
+**/storageState.json
+**/*.auth.json
+.env
+.env.*
+__pycache__/

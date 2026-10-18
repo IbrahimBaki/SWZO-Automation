@@ -1,0 +1,15 @@
+# Template — copy, rename the directory, fill in every field.
+change_id: EDUPULSE-00N
+task_id: TASK-0NN  # the approved task that authorized this package — required, see tasks/README.md
+title: Short human title
+pdi_target: "<instance explicitly named by the approving task>"
+source_baseline: "none (net-new) | <export/report this was built against>"
+affected_components:
+  - table_or_component_1
+dependencies: []
+xml_artifact: pending
+lifecycle_state: draft
+approval:
+  required: true
+  approved_by: null
+  approved_at: null
